@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#escolha__oponente {
+    height: 15rem;
+    width: 15rem;
+    background-color: aqua;
+    margin-top: 0.62rem;
+}
+
+#escolha__jogador {
+    height: 15rem;
+    width: 15rem;
+    background-color: greenyellow;
+    margin-top: 0.62rem;
+}
+
+#opcoes {
+    width: 15rem;
+    height: 5rem;
+    background-color: blueviolet;
+    margin: 0 auto;
+    margin-top: 0.62rem;
+}
+
+#opcoes img {
+    height: 5rem;
+    width: 5rem;
+}
