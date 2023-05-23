@@ -3,21 +3,21 @@ body {
     text-align: center;
 }
 
-#escolha__oponente {
+#opponent-choice {
     height: 15rem;
     width: 15rem;
-    background-color: aqua;
+    background-color: blue;
     margin-top: 0.62rem;
 }
 
-#escolha__jogador {
+#your-choice {
     height: 15rem;
     width: 15rem;
     background-color: greenyellow;
     margin-top: 0.62rem;
 }
 
-#opcoes {
+#choices {
     width: 15rem;
     height: 5rem;
     background-color: blueviolet;
@@ -25,7 +25,7 @@ body {
     margin-top: 0.62rem;
 }
 
-#opcoes img {
+#choices img {
     height: 5rem;
     width: 5rem;
 }

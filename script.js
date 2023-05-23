@@ -1,15 +1,24 @@
-var voce;
-var vocePontos =0;
-var oponente;
-var oponentePontos =0;
+var you;
+var yourScore =0;
+var opponent;
+var opponentScore =0;
 
-var opcoes = ["rock", "paper", "scissors"];
+var choices = ["rock", "paper", "scissors"];
 
 window.onload = function () {
     for (let i = 0; i < 3; i++) {
-        let opcoes = document.createElement ("img");
-        opcoes.id = opcoes[i];
-        opcoes.src = opcoes[i] + ".png";
-        document.getElementById("opcoes").append(opcoes);
+        let choice = document.createElement ("img");
+        choice.id = choices[i];
+        choice.src = choices[i] + ".png";
+        choice.addEventListener("click", selectChoice);
+        document.getElementById("choices").append(choice);
         }
+}
+
+function selectChoice() {
+    you = this.id;
+    document.getElementById("your-choice").src = you + ".png";
+
+    // randomizando oponente
+    oppponent = choices[Math.floor(Math.random() * 3)];
 }
