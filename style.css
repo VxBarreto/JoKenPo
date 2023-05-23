@@ -3,26 +3,44 @@ body {
     text-align: center;
 }
 
+.wrapper {
+    background-color: rgb(218, 217, 217);
+    border-radius: 0.62rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    width: 20%;
+    box-shadow: 0 0.94rem 1.87rem rgba(0, 81, 171, 0.148847)
+}
+
 #opponent-choice {
     height: 15rem;
     width: 15rem;
-    background-color: blue;
+    background-color: grey;
     margin-top: 0.62rem;
+    border-radius: 0.60rem;
+
 }
 
 #your-choice {
     height: 15rem;
     width: 15rem;
-    background-color: greenyellow;
+    background-color: grey;
     margin-top: 0.62rem;
+    border-radius: 0.60rem;
+
 }
 
 #choices {
     width: 15rem;
     height: 5rem;
-    background-color: blueviolet;
+    background-color: grey;
     margin: 0 auto;
     margin-top: 0.62rem;
+    border-radius: 0.60rem;
 }
 
 #choices img {
